@@ -19,3 +19,9 @@ curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources
 echo "Installing dnsmasq..."
 apk add dnsmasq
 
+echo "Downloading dnsmasq.conf..."
+if [ -f "/etc/dnsmasq.conf" ]; then
+    echo "/etc/dnsmasq.conf exists, renaming to /etc/dnsmasq.conf.old"
+    mv /etc/dnsmasq.conf /etc/dnsmasq.conf.old
+fi
+curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources/dnsmasq.conf > /etc/dnsmasq.conf

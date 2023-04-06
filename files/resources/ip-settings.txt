@@ -1,0 +1,16 @@
+Open /etc/network/interfaces
+set something like:
+
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.1.56
+netmask 255.255.255.0
+gateway 192.168.1.1
+dns-nameservers 8.8.8.8 1.1.1.1
+
+after this, reboot VM with:
+reboot
+
+if you are not sure about anything, here is more detailed tutorial: https://www.techaddressed.com/tutorials/configure-static-ip-in-debian/

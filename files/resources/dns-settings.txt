@@ -1,0 +1,5 @@
+open /etc/dnsmasq.conf and set things as examples in file
+then restart dns service with:
+/etc/init.d/dnsmasq restart
+
+more info: https://medium.com/nuculabs/setting-up-a-simple-dns-server-859de750f6fe

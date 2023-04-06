@@ -1,0 +1,4 @@
+alias l="ls -lh"
+alias ll="ls -la"
+alias vim="vi"
+alias shutdown='echo "shutdown command is not here, use poweroff instead!"'

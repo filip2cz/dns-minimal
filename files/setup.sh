@@ -28,3 +28,6 @@ if [ -f "/etc/dnsmasq.conf" ]; then
     mv /etc/dnsmasq.conf /etc/dnsmasq.conf.old
 fi
 curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources/dnsmasq.conf > /etc/dnsmasq.conf
+
+echo "Restarting dnsmasq..."
+/etc/init.d/dnsmasq restart

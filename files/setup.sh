@@ -5,6 +5,9 @@ echo "This is created for Alpine Linux only!"
 read -r "Press ENTER for continue, CTRL+C for exit"
 echo
 
+echo "Installing curl..."
+apk add curl
+
 echo "Downloading tutorials and .profile aliases ..."
 if [ -f "~/.profile" ]; then
     echo "~/.profile exists, skiping."

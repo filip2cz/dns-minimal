@@ -19,6 +19,10 @@ fi
 curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources/ip-settings.txt > ~/ip-settings.txt
 curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources/dns-settings.txt > ~/dns-settings.txt
 
+echo "Downloading motd"
+mv /etc/motd /etc/motd.old
+curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources/motd > /etc/motd
+
 echo "Installing dnsmasq..."
 apk add dnsmasq
 

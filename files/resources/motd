@@ -1,0 +1,11 @@
+
+Welcome to dns-minimal v2.0!
+
+dns-minimal is based on Alpine Linux, for help see <https://wiki.alpinelinux.org/>.
+
+If you want change ip of this vm, look into ip-settings.txt in your home folder.
+If you want change settings of dns server, look into dns-settings.txt in your home folder.
+
+created by Filip Komarek
+
+

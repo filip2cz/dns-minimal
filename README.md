@@ -10,7 +10,7 @@ all (mostly old) versions: https://github.com/filip2cz/dns-minimal/releases
 If you do not believe me about my ova file, or you cannot import it, I created script which will edit Alpine Linux automatically. Run this on device which is created only for this thing.  
 https://github.com/filip2cz/dns-minimal/blob/main/files/README.md
 
-## credentials
+## Credentials
 user: `root`  
 password: `root`  
 

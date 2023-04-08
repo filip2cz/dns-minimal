@@ -35,3 +35,6 @@ curl https://raw.githubusercontent.com/filip2cz/dns-minimal/main/files/resources
 
 echo "Restarting dnsmasq..."
 /etc/init.d/dnsmasq restart
+
+echo "Uninstalling curl..."
+apk del curl

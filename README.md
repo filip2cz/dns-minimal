@@ -19,3 +19,6 @@ password: `root`
 - DNS server: dnsmasq
 - SSH server: OpenBSD Secure Shell server
 - shell: Ash
+
+## I want docker container...
+Then use this: https://hub.docker.com/r/strm/dnsmasq
